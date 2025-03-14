@@ -1,6 +1,9 @@
+# Теперь этот файл исполняемый вместо main.py
 from sympy import symbols
 import pandas as pd
 from matplotlib import pyplot as plt
+
+print('запуск из myfile.py ')
 
 # Вариант 10
 k, T, C, L = symbols('k C T L')
